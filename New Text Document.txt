@@ -1,0 +1,24 @@
+# Write SQL Queries for the following
+
+1.  Write a query that returns contactName, companyName, address, city, orderId, orderdate (meaning I want a list of customers with their orders)
+2.  Write a query that returns orders with their orderid,orderdate, freight, shipaddress, shipcity, shipcountry and totalValue of order.
+3.  Write a query that returns the list of products with their categories
+4.  Write a query that returns the list of product that has maximum sale
+5.  Write a query that returns a list of products that are not sold yet
+6.  Write a query that returns list of products with their supplier details
+7.  Write a query that returns list of customers with their total number of orders and total quantities
+8.  Write a query that returns list of customers that have no orders placed.
+9.  Write a query that returns a customer that has spent the most 
+10. Write a query that returns country where maximum shipping is done
+
+NOTE: Make use of SQL Joins, Functions, group by clauses, etc.
+
+
+
+select * from sales.Customers
+select * from sales.Orders
+SELECT * FROM Sales.OrderDetails
+SELECT * FROM Production.Products
+SELECT * FROM Production.Suppliers
+select * from Production.Categories
+select * from stats.Scores
